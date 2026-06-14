@@ -28,17 +28,20 @@ https://billsplit-fff70.web.app
 
 Managing group expenses can be frustrating. NexSplit simplifies the process by allowing users to record shared expenses and keep everyone informed about payments and settlements.
 
+
 ## Application Preview
 
-![Screenshot 1](lib/assets/screenshots/image.png)
+![Screenshot 1](lib/assets/screenshots/screenshot1.png)
 
-![Screenshot 2](lib/assets/screenshots/image copy 2.png)
+![Screenshot 2](lib/assets/screenshots/screenshot2.png)
 
-![Screenshot 3](lib/assets/screenshots/image copy 3.png)
+![Screenshot 3](lib/assets/screenshots/screenshot3.png)
 
-![Screenshot 4](lib/assets/screenshots/image copy 4.png)
+![Screenshot 4](lib/assets/screenshots/screenshot4.png)
 
-![Screenshot 5](lib/assets/screenshots/image copy 5.png)
+![Screenshot 5](lib/assets/screenshots/screenshot5.png)
+
+![Screenshot 6](lib/assets/screenshots/screenshot6.png)
 
 ## Author
 
