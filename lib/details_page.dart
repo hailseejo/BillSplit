@@ -50,10 +50,13 @@ class _ExpenseDetailsPageState
 
           var e =
               snapshot.data!.data() as Map<String, dynamic>;
-String paidByName = e["paidByName"] ?? "Unknown";
+String paidByName;
 
 if (e["paidBy"] == currentUserId) {
-  paidByName = "You";}
+  paidByName = "You";
+} else {
+  paidByName = e["paidByName"] ?? "Unknown";
+}
           return Padding(
             padding: const EdgeInsets.all(16),
             child: Column(
@@ -112,13 +115,11 @@ if (e["paidBy"] == currentUserId) {
                          String rawName = e["splitNames"]?[userId] ?? "Unknown";
 
 
-if (rawName == "Me" || rawName == "You") {
-  rawName = getName(userId);   
-}
 
-String name = (userId == currentUserId)
+
+String name = userId == currentUserId
     ? "You"
-    : rawName;
+    : e["splitNames"]?[userId] ?? "Unknown";
                         return Padding(
                           padding:
                               const EdgeInsets.symmetric(

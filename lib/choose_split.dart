@@ -1,27 +1,40 @@
+
 import 'package:flutter/material.dart';
 import 'Equal_split_page.dart';
 import 'Manualsplit.dart';
+
 class ChooseSplitPage extends StatelessWidget {
   const ChooseSplitPage({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Choose Split Type",style: TextStyle(
-        color: Colors.white
-      ),),
-      backgroundColor: const Color.fromARGB(255, 67, 33, 83),),
-      body: Padding(
-        padding: const EdgeInsets.all(20),
+      backgroundColor: const Color.fromARGB(255, 240, 234, 242),
+      appBar: AppBar(
+        title: const Text(
+          "Choose Split Type",
+          style: TextStyle(
+            color: Colors.white,
+          ),
+        ),
+        backgroundColor: const Color.fromARGB(255, 67, 33, 83),
+      ),
+      body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
           children: [
+            const SizedBox(height: 40),
 
-            
             SizedBox(
-              width: double.infinity,
+              width: 300,
+              height: 55,
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color.fromARGB(255, 228, 188, 236)
+                  backgroundColor:
+                      const Color.fromARGB(255, 228, 188, 236),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(15),
+                  ),
                 ),
                 onPressed: () {
                   Navigator.push(
@@ -31,28 +44,42 @@ class ChooseSplitPage extends StatelessWidget {
                     ),
                   );
                 },
-                child: Text("Equal Split"),
+                child: const Text(
+                  "Equal Split",
+                  style: TextStyle(
+                    fontSize: 16,
+                  ),
+                ),
               ),
             ),
 
-            SizedBox(height: 20),
+            const SizedBox(height: 20),
 
-            
             SizedBox(
-              width: double.infinity,
+              width: 300,
+              height: 55,
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color.fromARGB(255, 228, 188, 236)
+                  backgroundColor:
+                      const Color.fromARGB(255, 228, 188, 236),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(15),
+                  ),
                 ),
                 onPressed: () {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => Manualsplit(),
+                      builder: (context) => const Manualsplit(),
                     ),
                   );
                 },
-                child: Text("Manual Split"),
+                child: const Text(
+                  "Manual Split",
+                  style: TextStyle(
+                    fontSize: 16,
+                  ),
+                ),
               ),
             ),
           ],
@@ -61,3 +88,4 @@ class ChooseSplitPage extends StatelessWidget {
     );
   }
 }
+
