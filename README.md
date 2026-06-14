@@ -1,17 +1,45 @@
-# bill_split
+# NexSplit
 
-A new Flutter project.
+NexSplit is a Flutter and Firebase-powered expense splitting application that helps friends, roommates, and groups manage shared expenses and settlements.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- User Authentication
+- Expense Tracking
+- Shared Expense Management
+- Settlement Tracking
+- Cloud Firestore Integration
+- Responsive Web Interface
+- Firebase Hosting Deployment
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter
+- Dart
+- Firebase Authentication
+- Cloud Firestore
+- Firebase Hosting
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# BillSplit
+## Live Demo
+
+https://billsplit-fff70.web.app
+
+## Why NexSplit?
+
+Managing group expenses can be frustrating. NexSplit simplifies the process by allowing users to record shared expenses and keep everyone informed about payments and settlements.
+
+## Application Preview
+
+![Screenshot 1](lib/assets/screenshots/image.png)
+
+![Screenshot 2](lib/assets/screenshots/image copy 2.png)
+
+![Screenshot 3](lib/assets/screenshots/image copy 3.png)
+
+![Screenshot 4](lib/assets/screenshots/image copy 4.png)
+
+![Screenshot 5](lib/assets/screenshots/image copy 5.png)
+
+## Author
+
+Hail Seejo
